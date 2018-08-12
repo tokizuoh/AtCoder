@@ -1,6 +1,6 @@
-#ABC050  
+# ABC050  
   
-##A  
+## A  
 Python  
 eval()は便利  
 
