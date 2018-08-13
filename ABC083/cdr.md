@@ -3,3 +3,5 @@
 ## A問題  
 if文  
   
+## B問題  
+do while  
