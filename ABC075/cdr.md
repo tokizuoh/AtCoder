@@ -26,4 +26,5 @@ f1 = (i + dx[k] < 0) or (j + dy[k] < 0);
 f2 = (i + dx[k] >= h) or (j + dy[k] >= w);
 if(f1 or f2) continue;
 if(D[i + dx[k]][j + dy[k]] == '#') cnt++;
-'''
+'''  
+  
