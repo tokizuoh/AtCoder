@@ -20,7 +20,7 @@ mapをつかった
 もし今いるところが盤面の隅だった場合、すべての遷移ができないので条件分岐が必要である  
 →[b.cpp](https://github.com/ozikot/AtCoder/blob/master/ABC075/b.cpp) 27~30行目  
   
-'''cpp:b_ex.cpp  
+'''cpp
     bool f1, f2;  
     f1 = (i + dx[k] < 0) or (j + dy[k] < 0);  
     f2 = (i + dx[k] >= h) or (j + dy[k] >= w);  
