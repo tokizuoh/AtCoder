@@ -18,7 +18,7 @@ mapをつかった
 数学だと(x座標, y座標)と書くことが多いが、私は(height, width)としている  
 上の図で示しているのは周りのマスがすべて存在しているときの話であるが、  
 もし今いるところが盤面の隅だった場合、すべての遷移ができないので条件分岐が必要である  
-→[b.cpp](https://github.com/ozikot/AtCoder/blob/master/ABC075/b.cpp) 27~30行目  
+→[b.cpp](https://github.com/ozikot/AtCoder/blob/master/ABC075/b.cpp) 27~30行目 (下のコード部分)  
   
 ```cpp
     bool f1, f2;  
@@ -28,3 +28,4 @@ mapをつかった
     if(D[i + dx[k]][j + dy[k]] == '#') cnt++;  
 ```  
   
+遷移先がマス内にとどまることを注意する  
