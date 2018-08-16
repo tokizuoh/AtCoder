@@ -19,8 +19,26 @@ int main(){
     }
 
     if(two){
-        cout << (four >= other ? "Yes" : "No") << endl;
+        if(four >= other + 1){
+            //4-1-4-1-4-2-2-2
+            cout << "Yes" << endl;
+            return 0;
+        }else if(four == other){
+            //2-2-2-4-1-4-1-4-1
+            cout << "Yes" << endl;
+            return 0;
+        }else if(!(other)){
+            cout << "Yes" << endl;
+            return 0;
+        }else if(!(other) and !(four)){
+            cout << "Yes" << endl;
+            return 0;
+        }else{
+            cout << "No" << endl;
+            return 0;
+        }
     }else{
+        //2の倍数がないとき 1-4-1-4-1みたいに挟べればOK
         cout << (four + 1 >= other ? "Yes" : "No") << endl;
     }
 
