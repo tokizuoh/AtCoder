@@ -23,7 +23,7 @@ int main(){
     int ans = 0;
     for(int i = 3; i <= n; i += 2){
         int t = 1, t_i = i;
-        for(int j = 2; j <= i; j++){
+        for(int j = 2; j <= int(sqrt(i)); j++){
             if(A[j] and !(t_i % j)){
                 int cnt = 0;
                 while(true){
