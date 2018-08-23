@@ -9,17 +9,17 @@ int main(){
     int n, h;
     cin >> n >> h;
 
-    vector<pair<int, bool>> A(n), B(n + 1);
+    vector<int> A(n);
+    vector<pair<int, bool>> B(n + 1);
     REP(i, n){
-        cin >> A[i].first >> B[i].first;
-        A[i].second = true;
+        cin >> A[i] >> B[i].first;
         B[i].second = false;
     }
 
-    sort(A.begin(), A.end(), greater<pair<int, bool>>());
+    sort(A.begin(), A.end(), greater<int>());
 
-    B[n].first = A[0].first;
-    B[n].second = A[0].second;
+    B[n].first = A[0];
+    B[n].second = true;
 
     sort(B.begin(), B.end(), greater<pair<int, bool>>());
 
