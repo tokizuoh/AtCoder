@@ -19,7 +19,6 @@ int main(){
     REP(i, n + 2){
         REP(j, n + 2){
             if(i) A[i][j] += A[i - 1][j];
-            if(j) A[i][j] += A[i][j - 1];
         }
     }
 
