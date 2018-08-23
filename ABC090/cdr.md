@@ -1,4 +1,4 @@
-# [ABC090](https://beta.atcoder.jp/contests/abc090/submissions/3062071)  
+# [ABC090](https://beta.atcoder.jp/contests/abc090)  
   
 ## A問題  
 気合  
