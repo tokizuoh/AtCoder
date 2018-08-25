@@ -2,7 +2,7 @@
   
 ## A問題  
 とても難しく感じた
-A---[A + B]---[賞味期限]----x : delisious  
+A---[A + B]---[賞味期限]----x : delicious  
 A--[賞味期限]---[A + B]-----x : safe  
 A--[賞味期限]--x---[A + B]--- : dangerous  
   
