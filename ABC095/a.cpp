@@ -11,7 +11,5 @@ int main(){
 
     cout << 700 + 100 * (int)count(s.begin(), s.end(), 'o') << endl;
 
-
-
     return 0;
 }
