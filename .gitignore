@@ -1,2 +1,8 @@
 #exeファイルは全無視
 *.exe
+
+#test.cppは全無視
+!/.nuget/test.cpp
+
+#test.pyは全無視
+!/.nuget/test.py
