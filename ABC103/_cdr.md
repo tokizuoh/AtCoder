@@ -12,4 +12,4 @@ fの最大値は(aの全ての積 - 1)をそれぞれaで割ったものの総�
 (a全ての積 - 1) mod a<sub>1</sub> + (a全ての積 - 1) mod a<sub>2</sub> + ... + (a全ての積 - 1) mod a<sub>n</sub>  
 → i項(0 <= i < n)の最大値はa<sub>i</sub> - 1となる  
 → 総和とる  
-[Python3での提出](https://beta.atcoder.jp/contests/abc103/submissions/3085172)
+[Python3での提出コード](https://beta.atcoder.jp/contests/abc103/submissions/3085172)
