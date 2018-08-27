@@ -10,20 +10,10 @@ int main(){
     cin >> d >> n;
 
     int ans;
-    switch(d){
-        case 0:
-            if(n < 100) ans = n;
-            else ans = 101;
-            break;
-        case 1:
-            if(n < 100) ans = n * 100;
-            else ans = 10100;
-            break;
-        case 2:
-            if(n < 100) ans = n * 10000;
-            else ans = 1010000;
-            break;
-    }
+    bool j = n < 100;
+    if(d == 0) ans = j ? n : 101;
+    if(d == 1) ans = j ? n * 100 : 10100;
+    if(d == 2) ans = j ? n * 10000 : 1010000;
     cout << ans << endl;
 
     return 0;
