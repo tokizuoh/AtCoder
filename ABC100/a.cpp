@@ -9,7 +9,7 @@ int main(){
     int a, b;
     cin >> a >> b;
 
-    string m = (a <= 8 and b <= 8 ? "Yay!" : ":(");
+    string m = a <= 8 and b <= 8 ? "Yay!" : ":(";
     cout << m << endl;
 
     return 0;
