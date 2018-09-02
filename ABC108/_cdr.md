@@ -15,9 +15,7 @@
   
 ## B問題  
 私には難しかった  
-
-![dmem-nfuyaezdon](https://user-images.githubusercontent.com/37968814/44953241-53aa5280-aecd-11e8-8330-dba071daf0bb.jpg)
-
+![dmem-nfuyaezdon](https://user-images.githubusercontent.com/37968814/44953337-c962ee00-aece-11e8-872a-7f5db26ed472.jpg)  
 見えてくる見えてくる  
   
 ## C問題  
