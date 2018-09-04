@@ -5,5 +5,6 @@
 floor  
   
 ## B問題  
-
+list(set(input().split()))  
+  
 ## C問題  
