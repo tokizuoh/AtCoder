@@ -15,7 +15,7 @@ def main():
                     B.append(map(str, [i + 1, j + 1, i + 1, j + 2]))
                     A[i][j] -= 1
                     A[i][j + 1] += 1
-    
+
     print(len(B))
     for b in B:
         print(" ".join(b))
