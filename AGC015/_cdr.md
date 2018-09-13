@@ -1,4 +1,4 @@
-# [AGC015](https://beta.atcoder.jp/contests/agc015/submissions/3183301)  
+# [AGC015](https://beta.atcoder.jp/contests/agc015)  
 [私のすべての提出](https://beta.atcoder.jp/contests/agc015/submissions?f.Task=&f.Language=&f.Status=&f.User=tokizo)  
   
 ## A問題  
