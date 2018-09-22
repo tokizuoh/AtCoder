@@ -21,13 +21,9 @@ struct UnionFind{
         int ry = root(y);
         if(rx == ry) return;
         else{
-            if(par[rx] <= par[ry]){
-                par[rx] += par[ry];
-                par[ry] = rx;
-            }else{
-                par[ry] += par[rx];
-                par[rx] = ry;
-            }
+            if(par[rx] > par[ry]) swap(rx, ry);
+            par[rx] += par[ry];
+            par[ry] = rx;
         }
     }
 
