@@ -41,7 +41,19 @@ int main(){
     sort(S.begin(), S.end());
     sort(T.begin(), T.end());
 
-    // check
+    REP(i, a){
+        REP(j, S[i].size()){
+            if(S[i][j] == T[i][j]) continue;
+            else{
+                cout << "No" << endl;
+                return 0;
+            }
+        }
+    }
+
+    cout << "Yes" << endl;
+
+    /* check
     for(auto x : S){
         for(auto y : x){
             cout << y << " ";
@@ -55,20 +67,7 @@ int main(){
         }
         cout << endl;
     }
-    //
-
-    REP(i, a){
-        REP(j, S[i].size()){
-            if(S[i][j] == T[i][j]) continue;
-            else{
-                cout << "No" << endl;
-                return 0;
-            }
-        }
-    }
-
-    cout << "Yes" << endl;
-
+    */
 
     return 0;
 }
