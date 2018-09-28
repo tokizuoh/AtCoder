@@ -1,0 +1,1 @@
+for i in input().split():print(i[0].upper(),end="")
