@@ -1,0 +1,1 @@
+print(int((int(input())+110)/111)*111)
