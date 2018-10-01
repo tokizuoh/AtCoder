@@ -4,7 +4,7 @@ using namespace std;
 
 int gcd(int a, int b){
     if(a < b) swap(a, b);
-    int d, r;
+    int r;
     r = a % b;
     return (r > 0 ? gcd(b, r) : b);
 }
