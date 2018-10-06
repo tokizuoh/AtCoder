@@ -8,7 +8,7 @@ int main(){
 
     int n, m;
     cin >> n >> m;
-    
+
     int D[n][n];
     REP(i, n){
         REP(j, n){
@@ -17,23 +17,23 @@ int main(){
         }
     }
 
-    vector<pair<int, int>> ZTT;   //Zero to Tsunagaru
+    vector<pair<int, int>> Z;
     REP(i, m){
         int u, v, l;
         cin >> u >> v >> l;
         u--;
         v--;
         if(u == 0){
-            ZTT.push_back({v, l});
-            D[u][v] = 0;
-            D[u][v] = 0;
+            Z.push_back({v, l});
+            D[u][v] = 1e9;
+            D[v][u] = 1e9;
         }else{
             D[u][v] = l;
             D[v][u] = l;
         }
     }
 
-    if(ZTT.size() == m or ZTT.size() < 2){
+    if(Z.size() < 2 or Z.size() == m){
         cout << -1 << endl;
         return 0;
     }
@@ -46,21 +46,28 @@ int main(){
         }
     }
 
-    vector<int> Cost;
-    for(int i = 0; i < ZTT.size(); i++){
+    int A_size = Z.size() * (Z.size() - 1) / 2;
+    int idx = 0;
+    vector<int> A(A_size, 1e9);
+    for(int i = 0; i < Z.size(); i++){
         int a, c1;
-        a = ZTT[i].first;
-        c1 = ZTT[i].second;
-        for(int j = i + 1; j < ZTT.size(); j++){
+        a = Z[i].first;
+        c1 = Z[i].second;
+        for(int j = i + 1; j < Z.size(); j++){
             int b, c2;
-            b = ZTT[j].first;
-            c2 = ZTT[j].second;
-            Cost.push_back(D[a][b] + c1 + c2);
+            b = Z[j].first;
+            c2 = Z[j].second;
+            if(D[a][b] == 1e9) continue;
+            else{
+                A[idx] = D[a][b] + c1 + c2;
+                idx++;
+            }
         }
     }
 
-    sort(Cost.begin(), Cost.end());
-    cout << Cost[0] << endl;
+    sort(A.begin(), A.end());
+
+    cout << (A[0] != 1e9 ? A[0] : -1) << endl;
 
     return 0;
 }
