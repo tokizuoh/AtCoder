@@ -29,7 +29,7 @@ int main(){
         REP(cy, 101){
             /*
             h[t]は0より大きいので，
-            h[t] = H - abs(X - Cx) - abs(Y - Cy)
+            h[t] = H - abs(X - Cx) - abs(Y - Cy) (not 0)
             となる
             */
             long long H = h[t] + abs(x[t] - cx) + abs(y[t] - cy);
