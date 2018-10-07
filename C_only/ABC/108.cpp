@@ -18,6 +18,7 @@ int main(){
     for(int i = 0; i < k; i++){
         if(i * 2 % k != 0) continue;
         ans += cnt[i] * cnt[i] * cnt[i];
+        if(k % 2) break;
     }
     cout << ans << endl;
 

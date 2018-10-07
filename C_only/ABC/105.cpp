@@ -10,7 +10,7 @@ int main(){
     cin >> n;
     string s = "";
     while(n != 0){
-        if(n % 2 != 0){
+        if(n % (-2) != 0){
             n--;
             s += "1";
         }else{
