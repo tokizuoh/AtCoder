@@ -18,14 +18,21 @@ int main(){
 
     long long n, m;
     cin >> n >> m;
+    string s, t;
+    cin >> s >> t;
     
     long long l = lcm(n, m);
-    //long long t = lcm(l / n, l / m);
+    long long ll = lcm(l / n, l / m);
 
+    string a = "", b = "";
     for(long long i = 0; i < l; i += l / n){
-        
+        if(i % ll == 0) a += s[i / (l / n)];
     }
-
+    for(long long i = 0; i < l; i += l / m){
+        if(i % ll == 0) b += t[i / (l / m)];
+    }
+    
+    cout << (a == b ? l : -1) << endl;
 
     return 0;
 }
