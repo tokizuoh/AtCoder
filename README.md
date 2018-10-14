@@ -9,5 +9,6 @@ Strage box of AtCoder code
 - imos法・累積和  
     - [AGC023-A「Zero-Sum Ranges」](https://beta.atcoder.jp/contests/agc023/tasks/agc023_a)  
     - [ABC105-D「Candy Distribution」](https://beta.atcoder.jp/contests/abc105/tasks/abc105_d)  
+    - [ABC084-D「2017-like Number」](https://beta.atcoder.jp/contests/abc084/tasks/abc084_d)  
     - [ABC037-C「総和」](https://beta.atcoder.jp/contests/abc037/tasks/abc037_c)  
     - [ABC035-C「オセロ」](https://beta.atcoder.jp/contests/abc035/tasks/abc035_c)  
