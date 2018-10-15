@@ -1,32 +1,44 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define REP(i, n) for(int i = 0; i < n; i++)
 
 int main(){
     cin.tie(0);
     ios::sync_with_stdio(false);
 
-    int n, m, q;
-    cin >> n >> m >> q;
-
-    int A[n + 2][n + 2] = {};
-    REP(i, m){
-        int l, r;
-        cin >> l >> r;
-        A[l][r + 1]++;
+    int N, M, Q;
+    cin >> N >> M >> Q;
+    vector<int> L(M), R(M);
+    for(int i = 0; i < M; i++){
+        cin >> L[i] >> R[i];
+    }
+    vector<int> p(Q), q(Q);
+    for(int i = 0; i < Q; i++){
+        cin >> p[i] >> q[i];
     }
 
-    REP(i, n + 2){
-        REP(j, n + 2){
-            if(i) A[i][j] += A[i - 1][j];
+    vector<vector<int>> S(N + 1, vector<int>(N + 1, 0));
+    for(int i = 0; i < M; i++){
+        S[L[i]][R[i]]++;
+    }
+
+    for(int i = 1; i <= N; i++){
+        for(int j = 1; j <= N; j++){
+            S[i][j] += S[i][j - 1];
+        }
+    }
+    for(int i = 1; i <= N; i++){
+        for(int j = 1; j <= N; j++){
+            S[i][j] += S[i - 1][j];
         }
     }
 
-    REP(i, n + 2){
-        REP(j, n + 2){
-            cout << A[i][j] << " ";
-        }
-        cout << endl;
+    for(int i = 0; i < Q; i++){
+        int ans = S[q[i]][q[i]];
+        ans -= S[p[i] - 1][q[i]];
+        ans -= S[q[i]][p[i] - 1];
+        ans += S[p[i] - 1][p[i] - 1];
+
+        cout << ans << endl;
     }
 
     return 0;
