@@ -20,4 +20,4 @@ Strage box of AtCoder code
     - [ARC037-B「バウムテスト」](https://beta.atcoder.jp/contests/arc037/tasks/arc037_b)  
     - [ARC032-C「道路工事」](https://beta.atcoder.jp/contests/arc032/tasks/arc032_2)  
     - [ABC097-D「Equals」](https://beta.atcoder.jp/contests/abc097/tasks/arc097_b)  
-    - [ABC048-D「連結 / Connectivity」](https://beta.atcoder.jp/contests/abc049/tasks/arc065_b)  
+    - [ABC049-D「連結 / Connectivity」](https://beta.atcoder.jp/contests/abc049/tasks/arc065_b)  
