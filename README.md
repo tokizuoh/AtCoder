@@ -23,4 +23,5 @@ Strage box of AtCoder code
     - [ABC049-D「連結 / Connectivity」](https://beta.atcoder.jp/contests/abc049/tasks/arc065_b)  
   
 - 尺取法  
+    - [ARC022-B「細長いお菓子」](https://beta.atcoder.jp/contests/arc022/tasks/arc022_2)  
     - [ABC032-C「列」](https://beta.atcoder.jp/contests/abc032/tasks/abc032_c)  
