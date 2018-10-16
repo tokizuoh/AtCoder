@@ -14,3 +14,7 @@ Strage box of AtCoder code
     - [ABC080-D「Recording」](https://beta.atcoder.jp/contests/abc080/tasks/abc080_d)  
     - [ABC037-C「総和」](https://beta.atcoder.jp/contests/abc037/tasks/abc037_c)  
     - [ABC035-C「オセロ」](https://beta.atcoder.jp/contests/abc035/tasks/abc035_c)  
+  
+- UnionFind  
+    - [ARC032-C「道路工事」](https://beta.atcoder.jp/contests/arc032/tasks/arc032_2)  
+    
