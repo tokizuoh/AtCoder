@@ -25,3 +25,7 @@ Strage box of AtCoder code
 - 尺取法  
     - [ARC022-B「細長いお菓子」](https://beta.atcoder.jp/contests/arc022/tasks/arc022_2)  
     - [ABC032-C「列」](https://beta.atcoder.jp/contests/abc032/tasks/abc032_c)  
+  
+- Warshall Floyd  
+    - [ABC079-D「Wall」](https://beta.atcoder.jp/contests/abc079/tasks/abc079_d)  
+
