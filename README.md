@@ -31,4 +31,5 @@ Strage box of AtCoder code
   
 - 全探索（広義）  
     - [ARC004-A「2点間距離の最大値 ( The longest distance )」](https://beta.atcoder.jp/contests/arc004/tasks/arc004_1)  
+    - [ABC085-C「Otoshidama」](https://beta.atcoder.jp/contests/abc085/tasks/abc085_c)  
     - [ABC051-B「Sum of Three Integers」](https://beta.atcoder.jp/contests/abc051/tasks/abc051_b)  
