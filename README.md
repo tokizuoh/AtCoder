@@ -28,4 +28,7 @@ Strage box of AtCoder code
   
 - Warshall Floyd  
     - [ABC079-D「Wall」](https://beta.atcoder.jp/contests/abc079/tasks/abc079_d)  
-
+  
+- 全探索（広義）  
+    - [ARC004-A「2点間距離の最大値 ( The longest distance )」](https://beta.atcoder.jp/contests/arc004/tasks/arc004_1)  
+    
