@@ -30,7 +30,7 @@ Strage box of AtCoder code
     - [ABC079-D「Wall」](https://beta.atcoder.jp/contests/abc079/tasks/abc079_d)  
     - [ABC073-D「joisino's travel」](https://beta.atcoder.jp/contests/abc073/tasks/abc073_d)  
     - [ABC054-C「One-stroke Path」](https://beta.atcoder.jp/contests/abc054/tasks/abc054_c)  
-    - [ABC016-D「友達の友達」](https://beta.atcoder.jp/contests/abc016/tasks/abc016_3)  
+    - [ABC016-C「友達の友達」](https://beta.atcoder.jp/contests/abc016/tasks/abc016_3)  
   
 - 全探索（広義）  
     - [ARC004-A「2点間距離の最大値 ( The longest distance )」](https://beta.atcoder.jp/contests/arc004/tasks/arc004_1)  
