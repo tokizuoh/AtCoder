@@ -42,6 +42,5 @@ Strage box of AtCoder code
     - [ABC051-B「Sum of Three Integers」](https://beta.atcoder.jp/contests/abc051/tasks/abc051_b)  
     - [ABC045-C「たくさんの数式 / Many Formulas」](https://beta.atcoder.jp/contests/abc045/tasks/arc061_a)  
   
-- 二部探索  
+- 二分探索  
     - [ARC050-B「花束」](https://beta.atcoder.jp/contests/arc050/tasks/arc050_b)  
-    
