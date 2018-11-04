@@ -44,3 +44,4 @@ Strage box of AtCoder code
   
 - 二分探索  
     - [ARC050-B「花束」](https://beta.atcoder.jp/contests/arc050/tasks/arc050_b)  
+    - [ARC037-C「億マス計算」](https://beta.atcoder.jp/contests/arc037/tasks/arc037_c)  
