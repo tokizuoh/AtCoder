@@ -13,4 +13,10 @@
 その間の数はすべて再現可能（調節ができる）  
   
 [自分の提出](https://beta.atcoder.jp/contests/agc015/submissions/3606187)  
-## C問題  
+## [AGC0023「A - Zero-Sum Ranges」](https://beta.atcoder.jp/contests/agc023/tasks/agc023_a)  
+  
+累積和の値が他の位置の同じ値を二つ選んだ範囲は和が0なる  
+連想配列などを用いて累積和の値を記録  
+出現する数値の二つ選ぶ組み合わせ  
+  
+[自分の提出](https://beta.atcoder.jp/contests/agc023/submissions/3606232)  
