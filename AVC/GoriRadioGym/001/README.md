@@ -3,3 +3,7 @@
 ## [A - キャンディーとN人の子供イージー / Children and Candies (ABC Edit)](https://beta.atcoder.jp/contests/abc043/tasks/abc043_a)  
 等差数列の和  
 [自分の提出](https://beta.atcoder.jp/contests/abc043/submissions/3606303)  
+
+## [B - バイナリハックイージー / Unhappy Hacking (ABC Edit)](https://beta.atcoder.jp/contests/abc043/tasks/abc043_b)  
+  
+[自分の提出](https://beta.atcoder.jp/contests/abc043/submissions/3606376)  
