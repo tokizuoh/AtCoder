@@ -1,5 +1,3 @@
-//https://beta.atcoder.jp/contests/agc004/tasks/agc004_a
-
 #include <bits/stdc++.h>
 using namespace std;
 
