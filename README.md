@@ -47,4 +47,5 @@ Strage box of AtCoder code
     - [ARC037-C「億マス計算」](https://beta.atcoder.jp/contests/arc037/tasks/arc037_c)  
   
 - DP(未AC)  
+    - [ABC054-D「Mixing Experiment」](https://beta.atcoder.jp/contests/abc054/tasks/abc054_d)  
     - [ABC044-C「高橋君とカード / Tak and Cards」](https://beta.atcoder.jp/contests/abc044/tasks/arc060_a)  
