@@ -18,9 +18,11 @@ int main(){
     for(int i = 1; i < n; i++){
         long long len = (X[i] - X[i - 1]) * i;
         ans += pre + len;
-        pre = 
+        pre += len;
         // << "ans : " << ans << " | pre : " << pre << " | len : " << len << endl;
     }
+
+    cout << ans << endl;
 
     return 0;
 }
