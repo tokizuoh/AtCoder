@@ -21,6 +21,7 @@ Strage box of AtCoder code
     - [ARC032-C「道路工事」](https://beta.atcoder.jp/contests/arc032/tasks/arc032_2)  
     - [ABC097-D「Equals」](https://beta.atcoder.jp/contests/abc097/tasks/arc097_b)  
     - [ABC049-D「連結 / Connectivity」](https://beta.atcoder.jp/contests/abc049/tasks/arc065_b)  
+    - [ATC001-B「Union Find」](https://beta.atcoder.jp/contests/atc001/tasks/unionfind_a)  
   
 - 尺取法  
     - [ARC022-B「細長いお菓子」](https://beta.atcoder.jp/contests/arc022/tasks/arc022_2)  
