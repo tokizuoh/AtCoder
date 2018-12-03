@@ -53,4 +53,5 @@ Strage box of AtCoder code
     - [ABC044-C「高橋君とカード / Tak and Cards」](https://beta.atcoder.jp/contests/abc044/tasks/arc060_a)  
   
 - 再帰関数  
+    - [ABC114-C「755」](https://beta.atcoder.jp/contests/abc114/tasks/abc114_c)  
     - [ABC029-C「Brute-force Attack」](https://beta.atcoder.jp/contests/abc029/tasks/abc029_c)  
