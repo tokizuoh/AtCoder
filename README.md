@@ -51,3 +51,6 @@ Strage box of AtCoder code
 - DP(未AC)  
     - [ABC054-D「Mixing Experiment」](https://beta.atcoder.jp/contests/abc054/tasks/abc054_d)  
     - [ABC044-C「高橋君とカード / Tak and Cards」](https://beta.atcoder.jp/contests/abc044/tasks/arc060_a)  
+  
+- 再帰関数  
+    - [ABC029-C「Brute-force Attack」](https://beta.atcoder.jp/contests/abc029/tasks/abc029_c)  
