@@ -7,27 +7,29 @@ int main(){
 
     long long n, p;
     cin >> n >> p;
-    
-    map<long long, long long> mp;
 
-    // 素因数分解
+    if(n == 1){
+        cout << p << endl;
+        return 0;
+    }
+
     long long tmp = p;
+
+    map<long long, long long> mp;
     for(long long i = 2; i * i <= p; i++){
-        // 素因数分解が終わっていたら抜ける
         if(tmp == 1) break;
-        while(tmp % i == 0){
-            mp[i]++;
-            tmp /= i;
+        if(tmp % i == 0){
+            long long cnt = 0;
+            while(tmp % i == 0){
+                tmp /= i;
+                cnt++;
+            }
+            mp[i] = cnt;
         }
     }
 
-    // pの，pの(1/2)乗以下の最大の素因数をカウント
-    // ここvalueは必ず1になる
-    mp[tmp]++;
-
     long long ans = 1;
     for(auto x : mp){
-        // pの素因数をn個に均等になるべく多く分配する
         for(int i = 0; i < x.second / n; i++){
             ans *= x.first;
         }
