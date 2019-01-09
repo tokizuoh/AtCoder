@@ -31,6 +31,7 @@ Strage box of AtCoder code
     - [ABC079-D「Wall」](https://beta.atcoder.jp/contests/abc079/tasks/abc079_d)  
     - [ABC073-D「joisino's travel」](https://beta.atcoder.jp/contests/abc073/tasks/abc073_d)  
     - [ABC054-C「One-stroke Path」](https://beta.atcoder.jp/contests/abc054/tasks/abc054_c)  
+    - [ABC051-D「Candidates of No Shortest Paths」](https://atcoder.jp/contests/abc051/tasks/abc051_d)  
     - [ABC022-C「Blue Bird」](https://beta.atcoder.jp/contests/abc022/tasks/abc022_c)  
     - [ABC016-C「友達の友達」](https://beta.atcoder.jp/contests/abc016/tasks/abc016_3)  
   
