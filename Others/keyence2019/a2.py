@@ -1,0 +1,1 @@
+print(['NO','YES'][''.join(sorted(input().split()))=='1479'])
