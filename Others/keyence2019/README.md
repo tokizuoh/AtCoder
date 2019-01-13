@@ -6,7 +6,7 @@
     文字列のリストとして受け取りソート  
     ソートしたものが1479と同値ならYES  
   
-- #### コード  
+- #### コード (Python3)  
 ```python
 print(['NO','YES'][''.join(sorted(input().split()))=='1479'])
 ```
@@ -21,7 +21,7 @@ print(['NO','YES'][''.join(sorted(input().split()))=='1479'])
     ・B = i(0 <= i <= 7)文字目から最後までの部分文字列  
     としたときのA + Bを全探索し，A + Bが`'keyence'`になるかどうか  
   
-- #### コード  
+- #### コード (Python3)  
 ```python
 S = input()
 for i in range(7):
@@ -31,4 +31,3 @@ for i in range(7):
 print('NO')  
 ```
   
-### C問題  
