@@ -11,6 +11,8 @@
 print(['NO','YES'][''.join(sorted(input().split()))=='1479'])
 ```
   
+---
+  
 ### B - KEYENCE String  
 [問題ページ](https://atcoder.jp/contests/keyence2019/tasks/keyence2019_b)  
 - #### 解法  
