@@ -2,10 +2,10 @@
 [私のすべての提出](https://atcoder.jp/contests/keyence2019/submissions?f.Task=&f.Language=&f.Status=&f.User=tokizo)  
   
 ### A問題  
-- 解法  
+- #### 解法  
 文字列のリストとして受け取りソート  
 ソートしたものが1479と同値ならYES
-- コード  
+- #### コード  
 ```python
 print(['NO','YES'][''.join(sorted(input().split()))=='1479'])
 ```
