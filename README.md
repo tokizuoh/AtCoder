@@ -35,18 +35,9 @@ Strage box of AtCoder code
     - [ABC022-C「Blue Bird」](https://beta.atcoder.jp/contests/abc022/tasks/abc022_c)  
     - [ABC016-C「友達の友達」](https://beta.atcoder.jp/contests/abc016/tasks/abc016_3)  
   
-- 全探索（広義）  
-    - [ARC004-A「2点間距離の最大値 ( The longest distance )」](https://beta.atcoder.jp/contests/arc004/tasks/arc004_1)  
-    - [ABC104-C「All Green」](https://beta.atcoder.jp/contests/abc104/tasks/abc104_c)  
-    - [ABC088-D「Grid Repainting」【幅優先探索】](https://atcoder.jp/contests/abc088/tasks/abc088_d)  
-      
-    - [ABC085-C「Otoshidama」](https://beta.atcoder.jp/contests/abc085/tasks/abc085_c) 
-    - [ABC079-C「Train Ticket」](https://beta.atcoder.jp/contests/abc079/tasks/abc079_c)  
-    - [ABC054-C「One-stroke Path」](https://beta.atcoder.jp/contests/abc054/tasks/abc054_c)  
-    - [ABC051-B「Sum of Three Integers」](https://beta.atcoder.jp/contests/abc051/tasks/abc051_b)  
-    - [ABC045-C「たくさんの数式 / Many Formulas」](https://beta.atcoder.jp/contests/abc045/tasks/arc061_a)  
-    - [ATC001-A「深さ優先探索」【深さ優先探索】](https://beta.atcoder.jp/contests/atc001/tasks/dfs_a)  
-      
+- 幅優先探索  
+    - [ABC007-C「幅優先探索」](https://atcoder.jp/contests/abc007/tasks/abc007_3)  
+  
 - 二分探索  
     - [ARC050-B「花束」](https://beta.atcoder.jp/contests/arc050/tasks/arc050_b)  
     - [ARC037-C「億マス計算」](https://beta.atcoder.jp/contests/arc037/tasks/arc037_c)  
@@ -56,5 +47,5 @@ Strage box of AtCoder code
     - [ABC044-C「高橋君とカード / Tak and Cards」](https://beta.atcoder.jp/contests/abc044/tasks/arc060_a)  
   
 - 再帰関数  
-    - [ABC114-C「755」](https://beta.atcoder.jp/contests/abc114/tasks/abc114_c)     
+    - [ABC114-C「755」](https://beta.atcoder.jp/contests/abc114/tasks/abc114_c)  
     - [ABC029-C「Brute-force Attack」](https://beta.atcoder.jp/contests/abc029/tasks/abc029_c)  
