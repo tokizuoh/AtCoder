@@ -36,6 +36,7 @@ Strage box of AtCoder code
     - [ABC016-C「友達の友達」](https://beta.atcoder.jp/contests/abc016/tasks/abc016_3)  
   
 - 幅優先探索  
+    - [ABC088-D「Grid Repainting」](https://atcoder.jp/contests/abc088/tasks/abc088_d)  
     - [ABC007-C「幅優先探索」](https://atcoder.jp/contests/abc007/tasks/abc007_3)  
   
 - 二分探索  
