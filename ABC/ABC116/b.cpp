@@ -8,28 +8,30 @@ int main(){
     int s;
     cin >> s;
 
-    map<int, bool> mp;
+    unordered_map<int, bool> mp;
     mp[s] = true;
-    int tmp = s;
-    for(int i = 2; i <= 1000000; i++){
-        if(tmp % 2 == 0){
-            if(mp[tmp / 2] == true){
-                cout << i << endl;
-                return 0;
+ 
+    int idx = 2;
+    while(true){
+        if(s % 2 == 0){
+            if(mp[s / 2] == true){
+                break;
             }else{
-                mp[tmp / 2] = true;
-                tmp = tmp / 2;
+                mp[s / 2] = true;
+                s = s / 2;
             }
         }else{
-            if(mp[tmp * 3 + 1] == true){
-                cout << i << endl;
-                return 0;
+            if(mp[3 * s + 1] == true){
+                break;
             }else{
-                mp[tmp * 3 + 1] = true;
-                tmp = tmp * 3 + 1;
+                mp[3 * s + 1] = true;
+                s = 3 * s + 1;
             }
         }
+        idx++;
     }
+
+    cout << idx << endl;
 
     return 0;
 }
