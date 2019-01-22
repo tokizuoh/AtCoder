@@ -37,7 +37,7 @@ Strage box of AtCoder code
   
 - 幅優先探索  
     - [ABC088-D「Grid Repainting」](https://atcoder.jp/contests/abc088/tasks/abc088_d)  
-    - [ABC007-C「幅優先探索」](https://atcoder.jp/contests/abc007/tasks/abc007_3)  
+    - [ABC007-C「幅優先探索」]n(https://atcoder.jp/contests/abc007/tasks/abc007_3)  
   
 - 二分探索  
     - [ARC050-B「花束」](https://beta.atcoder.jp/contests/arc050/tasks/arc050_b)  
@@ -48,5 +48,6 @@ Strage box of AtCoder code
     - [ABC044-C「高橋君とカード / Tak and Cards」](https://beta.atcoder.jp/contests/abc044/tasks/arc060_a)  
   
 - 再帰関数  
+    - [ABC115-D「Christmas」](https://atcoder.jp/contests/abc115/tasks/abc115_d)  
     - [ABC114-C「755」](https://beta.atcoder.jp/contests/abc114/tasks/abc114_c)  
     - [ABC029-C「Brute-force Attack」](https://beta.atcoder.jp/contests/abc029/tasks/abc029_c)  
