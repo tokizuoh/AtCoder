@@ -35,12 +35,39 @@
     ```
   
 ---
-
-### B  
-[問題ページ]()  
+  
+### C - Christmas Eve  
+[問題ページ](https://atcoder.jp/contests/abc115/tasks/abc115_c)  
 - #### 解法  
+    ソートしてk個の塊ずつ見ていき，塊の最初と最後の差の最小値を更新していく  
+  
+- #### コード(C++)  
+  
+    ```cpp
+    #include <bits/stdc++.h>
+    using namespace std;
 
-- #### コード()  
+    int main(){
+        cin.tie(0);
+        ios::sync_with_stdio(false);
 
-```
-```
+        int n, k;
+        cin >> n >> k;
+        vector<int> H(n);
+        for(int i = 0; i < n; i++){
+            cin >> H[i];
+        }
+
+        sort(H.begin(), H.end());
+
+        int mini = 1e9;
+        for(int i = 0; i < n - k + 1; i++){
+            mini = min(mini, H[i + k - 1] - H[i]);
+        }
+
+        cout << mini << endl;
+
+        return 0;
+    }
+    ```
+  
