@@ -7,34 +7,20 @@ int main(){
 
     int n;
     cin >> n;
-    long long H[n];
-    set<long long> st;
+    vector<int> h(n);
     for(int i = 0; i < n; i++){
-        cin >> H[i];
-        st.insert(H[i]);
+        cin >> h[i];
     }
 
-    if(st.size() == 1){
-        cout << H[0] << endl;
-        return 0;
-    }
-
-    long long ans = 0, bl = 0;
-    for(int i = 1; i < n; i++){
-        if(H[i - 1] > H[i]){
-            ans += H[i - 1] - bl;
-            bl = H[i];
-        }else if(H[i - 1] < H[i]){
-            ans += H[i] - bl;
-            bl = H[i];
+    int ans = 0, active = 0;
+    for(int i = 0; i < n; i++){
+        if(active < h[i]){
+            ans += h[i] - active;
         }
-        //cout << ans << ' ';
+        active = h[i];
     }
-    //cout << endl;
 
     cout << ans << endl;
-
-
 
     return 0;
 }
