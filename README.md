@@ -37,7 +37,7 @@ Strage box of AtCoder code
   
 - 幅優先探索  
     - [ABC088-D「Grid Repainting」](https://atcoder.jp/contests/abc088/tasks/abc088_d)  
-    - [ABC007-C「幅優先探索」]n(https://atcoder.jp/contests/abc007/tasks/abc007_3)  
+    - [ABC007-C「幅優先探索」](https://atcoder.jp/contests/abc007/tasks/abc007_3)  
   
 - 二分探索  
     - [ARC050-B「花束」](https://beta.atcoder.jp/contests/arc050/tasks/arc050_b)  
