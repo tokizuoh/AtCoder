@@ -1,6 +1,6 @@
 # [AtCoder Beginner Contest 115](https://atcoder.jp/contests/abc115)  
   
-### <u>A - Christmas Eve Eve Eve</u>  
+### <u> A - Christmas Eve Eve Eve </u>  
 [問題ページ](https://atcoder.jp/contests/abc115/tasks/abc115_a)  
 - #### 解法  
     `Christmas`という文字列に 25 - D 個 (半角空白 + `Eve`)を追加  
