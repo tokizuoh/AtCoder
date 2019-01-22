@@ -65,7 +65,7 @@
 ### C - Grand Garden  
 [問題ページ](https://atcoder.jp/contests/abc116/tasks/abc116_c)  
 - #### 解法  
-    変数 `active` と `active` を用意する  
+    変数 `active` と `ans` を用意する  
     for文で一つ一つ花を見ていく  
     - `active` : 直前の花の高さ  
     - `ans` : 必要な最小の水やり操作の回数  
