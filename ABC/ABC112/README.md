@@ -15,12 +15,41 @@
     ```
   
 ---
-
-### B  
-[問題ページ]()  
+  
+### B - Time Limit Exceeded  
+[問題ページ](https://atcoder.jp/contests/abc112/tasks/abc112_b)  
 - #### 解法  
+    変数の大文字、小文字に注意
+  
+- #### コード(C++)  
+  
+    ```cpp
+    #include <bits/stdc++.h>
+    using namespace std;
 
-- #### コード()  
+    int main(){
+        cin.tie(0);
+        ios::sync_with_stdio(false);
 
-```
-```
+        int N, T;
+        cin >> N >> T;
+
+        int mini = 1e9;
+        for(int i = 0; i < N; i++){
+            int c, t;
+            cin >> c >> t;
+            if(t <= T){
+                mini = min(mini, c);
+            }
+        }
+
+        if(mini == 1e9){
+            cout << "TLE" << endl;
+        }else{
+            cout << mini << endl;
+        }
+
+        return 0;
+    }
+    ```
+  
