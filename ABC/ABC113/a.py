@@ -1,2 +1,2 @@
 x, y = map(int, input().split())
-print(x + y // 2)
+print(x + int(y//2))
