@@ -51,9 +51,8 @@ Strage box of AtCoder code
     - [ARC050-B「花束」](https://beta.atcoder.jp/contests/arc050/tasks/arc050_b)  
     - [ARC037-C「億マス計算」](https://beta.atcoder.jp/contests/arc037/tasks/arc037_c)  
   
-- DP(未AC)  
-    - [ABC054-D「Mixing Experiment」](https://beta.atcoder.jp/contests/abc054/tasks/abc054_d)  
-    - [ABC044-C「高橋君とカード / Tak and Cards」](https://beta.atcoder.jp/contests/abc044/tasks/arc060_a)  
+- DP  
+    - [Educational DP Contest-A「Frog 1」](https://atcoder.jp/contests/dp/tasks/dp_a)  
   
 - 再帰関数  
     - [ABC115-D「Christmas」](https://atcoder.jp/contests/abc115/tasks/abc115_d)  
