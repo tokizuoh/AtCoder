@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define REP(i, n) for(int i = 0; i < n; i++)
 
 int main(){
     cin.tie(0);
@@ -9,21 +8,21 @@ int main(){
     int n;
     cin >> n;
 
-    long long total = 0;
     vector<long long> A(n);
-    REP(i, n){
+    for(int i = 0; i < n; i++){
         cin >> A[i];
-        total += A[i];
     }
 
-    long long mini = 1e18, x = 0;
-    //すぬけくんもアライグマくんも一枚以上カードを取るのでn-1まで
-    REP(i, n - 1){
-        x += A[i];
-        //残り:(総和 - 今見てるところまでの和) - (今見てるところまでの和)
-        mini = min(mini, abs(total - x - x));
+    for(int i = 1; i < n; i++){
+        A[i] += A[i - 1];
     }
-    cout << mini << endl;
+
+    long long ans = 1e18;
+    for(int i = 0; i < n - 1; i++){
+        ans = min(ans, abs(A[n - 1] - 2 * A[i]));
+    }
+
+    cout << ans << endl;
 
     return 0;
 }
