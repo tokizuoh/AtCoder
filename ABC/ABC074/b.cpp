@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define REP(i, n) for(int i = 0; i < n; i++)
 
 int main(){
     cin.tie(0);
@@ -8,15 +7,14 @@ int main(){
 
     int n, k;
     cin >> n >> k;
-    
-    int cost = 0;
-    REP(i, n){
+    int ans = 0;
+    for(int i = 0; i < n; i++){
         int x;
         cin >> x;
-        cost += min(x, k - x) * 2;
+        ans += min(x - 0, k - x) * 2;
     }
 
-    cout << cost << endl;
+    cout << ans << endl;
 
     return 0;
 }
