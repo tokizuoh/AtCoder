@@ -1,0 +1,1 @@
+print(sorted([input().count('1') for _ in range(list(map(int, input().split()))[0])])[-1])
