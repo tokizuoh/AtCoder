@@ -46,19 +46,19 @@ int main(){
         }
 
         int tmp = 0;
-        for(int i = 0; i < (int)X.size(); i++){
-            for(int j = i + 1; j < (int)X.size(); j++){
-                tmp += A[X[i]][X[j]];
+        for(int j = 0; j < (int)X.size(); j++){
+            for(int k = j + 1; k < (int)X.size(); k++){
+                tmp += A[X[j]][X[k]];
             }
         }
-        for(int i = 0; i < (int)Y.size(); i++){
-            for(int j = i + 1; j < (int)Y.size(); j++){
-                tmp += A[Y[i]][Y[j]];
+        for(int j = 0; j < (int)Y.size(); j++){
+            for(int k = j + 1; k < (int)Y.size(); k++){
+                tmp += A[Y[j]][Y[k]];
             }
         }
-        for(int i = 0; i < (int)Z.size(); i++){
-            for(int j = i + 1; j < (int)Z.size(); j++){
-                tmp += A[Z[i]][Z[j]];
+        for(int j = 0; j < (int)Z.size(); j++){
+            for(int k = j + 1; k < (int)Z.size(); k++){
+                tmp += A[Z[j]][Z[k]];
             }
         }
         ans = max(ans, tmp); 
