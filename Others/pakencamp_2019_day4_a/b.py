@@ -1,0 +1,1 @@
+print(sum([1]+[5**(i+1) for i in range(int(input()))]))
