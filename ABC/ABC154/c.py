@@ -1,0 +1,1 @@
+print('YNEOS'[int(input())!=len(set(list(map(int,input().split()))))::2])
