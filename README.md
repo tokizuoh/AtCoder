@@ -1,5 +1,5 @@
 # AtCoder
-Strage box of AtCoder code  
+Storage box of AtCoder code  
 各ファイル内の`README.md`に解法とコードを載せ始めました(2019/1/14~)  
   
 ## 備忘録  
